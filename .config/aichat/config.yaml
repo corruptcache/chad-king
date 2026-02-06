@@ -1,0 +1,13 @@
+# AI Orchestration Logic
+model: openai:gpt-4-turbo # Default model
+clients:
+  - type: openai
+    api_key: "${OPENAI_API_KEY}"
+  - type: gemini
+    api_key: "${GEMINI_API_KEY}"
+  - type: anthropic
+    api_key: "${ANTHROPIC_API_KEY}"
+
+# O(1) Formatting
+highlight: true
+stream: true

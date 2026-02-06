@@ -1,0 +1,71 @@
+# --- SYSTEM CORE & GRAPHICS (HP Envy x360 / Ryzen 7000) ---
+mesa                    # Essential Vulkan/OpenGL drivers
+vulkan-radeon           # Hardware-accelerated "Glassmorphism"
+libva-mesa-driver       # GPU video acceleration
+vulkan-icd-loader       # Vulkan loader
+gnu-stow                # The "Chad-King" symlink engine
+cifs-utils              # Required for Unraid SMB mounts
+nfs-utils               # Required for Unraid NFS mounts
+
+# --- THE TERMINAL HUD (Ghostty & Friends) ---
+ghostty                 # GPU-accelerated HUD
+ttf-jetbrains-mono-nerd # Essential for Starship icons
+starship                # Minimalist Cyberpunk prompt
+tmux                    # Sessionizer engine
+aichat                  # Rust-based CLI for Gemini/Claude/GPT
+
+# --- RUST-POWERED EFFICIENCY (O(1) APM) ---
+atuin                   # SQLite-backed history (Never lose a flag)
+zoxide                  # Navigation teleportation (z)
+eza                     # Logic-driven 'ls' replacement
+bat                     # Syntax-highlighted 'cat'
+fd                      # Fast find for Sessionizer
+fzf                     # Fuzzy finder for the Primeagen flow
+
+# --- DEVELOPMENT & INFRASTRUCTURE ---
+neovim                  # LazyVim / Sarcophagus build environment
+git                     # Version control
+openssh                 # Exodia Core (Unraid SSH)
+btop                    # Mission Control telemetry
+ripgrep                 # Blazing fast code searching
+lazygit                 # O(1) Git management
+entr                    # Automatic command execution on file change
+gdu                     # Fast, Go-based disk usage analyzer
+
+# --- DATA LOGIC & PROCESSING ---
+jq                      # Essential JSON processor
+yq                      # Essential YAML processor
+grex                    # Logic-driven regex generator
+
+# --- RED TEAM: RECON & OSINT (Logic > Optics) ---
+amass                   # In-depth DNS enumeration and mapping
+subfinder               # Fast, passive subdomain discovery
+httpx                   # High-speed HTTP probing and toolkit
+theharvester            # OSINT for emails, names, and subdomains
+doggo                   # Modern, high-bandwidth DNS client
+curlie                  # High-visibility API testing (HTTPie alternative)
+
+# --- RED TEAM: SCANNING & ENUMERATION ---
+nmap                    # The definitive network mapper
+rustscan                # High-speed port scanning (Nmap wrapper)
+masscan                 # Extremely fast port scanner
+nbtscan                 # NetBIOS name server scanner
+
+# --- RED TEAM: WEB APP SEC (Phish Club / AppSec focus) ---
+ffuf                    # Fast web fuzzer (Directory/Param discovery)
+feroxbuster             # Rust-based recursive content discovery
+sqlmap                  # Automated SQL injection and exploitation
+nuclei                  # Template-based vulnerability scanner
+
+# --- RED TEAM: NETWORK & MITM (Mission Control) ---
+responder               # LLMNR, NBT-NS, and MDNS poisoner
+bettercap               # Flexible MITM and network monitoring tool
+impacket                # Python classes for network protocols
+tshark                  # CLI-based packet analysis (Headless Wireshark)
+tcpdump                 # Lightweight, standard packet analyzer
+termshark               # TUI for tshark (No-mouse packet analysis)
+
+# --- RED TEAM: EXPLOITATION & TUNNELING ---
+metasploit              # msfconsole for modular exploitation
+exploitdb               # searchsploit for offline exploit database
+chisel                  # Fast TCP/UDP tunneling over HTTP

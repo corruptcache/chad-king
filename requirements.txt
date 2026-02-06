@@ -1,0 +1,25 @@
+# --- AI & INFERENCE (Workspace 7: LLM Orchestration) ---
+# Unified SDKs for GPT-5, Gemini, and Claude
+openai                  # OpenAI / GPT-5 orchestration
+google-generativeai     # Google Gemini SDK
+anthropic               # Anthropic Claude SDK
+instructor              # Structured outputs (Logic > Optics for LLM data)
+pydantic                # Strict data validation for AI agents
+
+# --- INFRASTRUCTURE & SARCOPHAGUS (Workspace 2: Unraid App Dev) ---
+# Tools for managing the 110TB Exodia Core and Sarcophagus logic
+python-dotenv           # Environment variable hygiene (API Keys/Secrets)
+paramiko                # SSH logic for remote Unraid management
+pyyaml                  # Configuration management for Sarcophagus
+rich                    # Minimalist Cyberpunk terminal formatting
+
+# --- SECURITY & TELEMETRY (Workspace 3: Mission Control) ---
+# High-bandwidth tools for Phish Club and Sec+ labs
+scapy                   # Packet manipulation and analysis
+requests                # Synchronous API interaction
+beautifulsoup4          # Web scraping for Scholarship Sentinel
+
+# --- DEVELOPMENT TOOLS (O(1) Workflow) ---
+# Rust-powered tools to respect the 8GB RAM constraint
+ruff                    # Ultra-fast linter and formatter
+black                   # Deterministic code formatting

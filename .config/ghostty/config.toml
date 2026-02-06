@@ -1,0 +1,19 @@
+# --- THE GHOSTTY HUD ---
+# Philosophy: High Visibility, O(1) Latency
+
+# > OPTICS
+background-opacity = 0.85
+background-blur = true
+theme = jagged-ice
+
+# > TYPOGRAPHY
+font-family = "JetBrainsMono Nerd Font"
+font-size = 11
+adjust-cell-height = 10%
+
+# > PERFORMANCE
+gpu-backend = vulkan
+
+# > BEHAVIOR
+window-decoration = false
+confirm-close-surface = true
